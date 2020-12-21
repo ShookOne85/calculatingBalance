@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "env-cmd node src/index.js | pjl"
+    "start": "env-cmd node src/index.js | pjl",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "devDependencies": {
     "env-cmd": "^10.1.0",
     "pretty-json-log": "^0.3.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
   }
 }
