@@ -1,0 +1,19 @@
+{
+  "name": "calculatingbalance",
+  "version": "1.0.0",
+  "description": "This is a package JSON which holds dependencies and scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShookOne85/calculatingBalance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShookOne85/calculatingBalance/issues"
+  },
+  "homepage": "https://github.com/ShookOne85/calculatingBalance#readme"
+}
